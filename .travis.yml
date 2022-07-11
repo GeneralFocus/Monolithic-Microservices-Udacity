@@ -2,4 +2,5 @@ language: node_js
 node_js:
   - "stable"
 script:
-- echo "skipping tests"
+  - ./configure && make
+#- echo "skipping tests"
