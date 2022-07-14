@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-configmap
+data:
+  POSTGRES_HOST: mono-430250441725-identifier.ca8i14jczqcw.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  AWS_BUCKET: mymono-430250441725-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: general
+  URL: http://localhost:8100
